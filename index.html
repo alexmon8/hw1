@@ -1,0 +1,274 @@
+<!--
+  File: index.html
+  GUI Assignment 1: Creating Your First Web Page
+  Alexi Montesinos, UMass Lowell Computer Science
+  Copyright (c) 2026 by Alexi Montesinos. All rights reserved. May be freely copied or
+  excerpted for educational purposes with credit to the author.
+  Created: May 21, 2026
+  Description: A beginner's guide to weightlifting and gym training, covering
+  fundamental lifts, a sample weekly program, nutrition tips, and useful resources.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexi's Lifting Guide</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <!-- ==================== HEADER / HERO SECTION ==================== -->
+    <header>
+      <h1>Alexi's Lifting &amp; Gym Guide</h1>
+      <p class="subtitle">Everything you need to start your strength training journey</p>
+    </header>
+
+    <!-- ==================== NAVIGATION LINKS ==================== -->
+    <nav>
+      <h2>Quick Navigation</h2>
+      <ul>
+        <li><a href="#about">About Lifting</a></li>
+        <li><a href="#big-three">The Big Three Lifts</a></li>
+        <li><a href="#program">Sample Weekly Program</a></li>
+        <li><a href="#nutrition">Nutrition Basics</a></li>
+        <li><a href="#resources">Useful Resources</a></li>
+      </ul>
+    </nav>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section id="about">
+      <h2>About Weightlifting</h2>
+      <p>
+        Weightlifting and strength training are among the most effective forms of exercise
+        for improving overall health, body composition, and mental well-being. Unlike cardio
+        alone, resistance training builds lean muscle mass, increases bone density, and boosts
+        your resting metabolic rate &mdash; meaning you burn more calories even at rest.
+      </p>
+      <p>
+        Whether your goal is to build muscle (hypertrophy), get stronger (powerlifting),
+        lose fat, or simply feel better day to day, the gym has something for everyone.
+        The key is consistency, progressive overload, and proper recovery. You do not need
+        to train every day &mdash; in fact, rest days are just as important as training days,
+        because muscle growth happens during recovery, not during the workout itself.
+      </p>
+      <p>
+        Getting started can feel overwhelming, but it does not have to be. Focus on learning
+        a handful of fundamental movements, eat enough protein, sleep 7&ndash;9 hours per night,
+        and show up regularly. Results will follow.
+      </p>
+
+      <!-- Image of gym -->
+      <figure>
+        <img src="images/gym.jpg" alt="Inside of a weight room with barbells and racks">
+        <figcaption>A well-equipped gym is all you need to get started.</figcaption>
+      </figure>
+    </section>
+
+    <!-- ==================== THE BIG THREE LIFTS ==================== -->
+    <section id="big-three">
+      <h2>The Big Three Lifts</h2>
+      <p>
+        The squat, bench press, and deadlift are considered the three foundational movements
+        of strength training. Mastering these will develop strength across your entire body.
+      </p>
+
+      <!-- Sub-sections for each lift -->
+      <h3>1. Squat</h3>
+      <p>
+        The squat is the king of lower-body exercises. It targets the quadriceps, hamstrings,
+        glutes, and core. Proper form includes keeping your chest up, knees tracking over your
+        toes, and descending until your hips are at or below parallel.
+      </p>
+
+      <h3>2. Bench Press</h3>
+      <p>
+        The bench press is the primary upper-body push movement, working the chest (pectorals),
+        front deltoids, and triceps. Grip the bar slightly wider than shoulder-width, keep your
+        feet flat on the floor, and lower the bar to your lower chest with control.
+      </p>
+
+      <h3>3. Deadlift</h3>
+      <p>
+        The deadlift works more muscle groups than almost any other exercise &mdash; hamstrings,
+        glutes, lower back, traps, and forearms. Start with the bar over your mid-foot, hinge
+        at the hips, maintain a neutral spine, and drive through the floor to stand tall.
+      </p>
+
+      <!-- Image of barbell -->
+      <figure>
+        <img src="images/barbell.jpg" alt="A loaded barbell on the floor ready to be deadlifted">
+        <figcaption>A loaded barbell &mdash; the most versatile piece of gym equipment.</figcaption>
+      </figure>
+    </section>
+
+    <!-- ==================== SAMPLE WEEKLY PROGRAM TABLE ==================== -->
+    <section id="program">
+      <h2>Sample Weekly Training Program</h2>
+      <p>
+        Below is a simple 4-day upper/lower split suitable for beginners and intermediates.
+        Rest periods between sets should be 2&ndash;3 minutes for compound lifts and
+        60&ndash;90 seconds for isolation work.
+      </p>
+
+      <!-- Table displaying the weekly program -->
+      <table>
+        <caption>4-Day Upper/Lower Split</caption>
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Focus</th>
+            <th>Main Exercises</th>
+            <th>Sets &times; Reps</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>Upper &mdash; Strength</td>
+            <td>Bench Press, Barbell Row, Overhead Press</td>
+            <td>4 &times; 5</td>
+          </tr>
+          <tr>
+            <td>Tuesday</td>
+            <td>Lower &mdash; Strength</td>
+            <td>Squat, Romanian Deadlift, Leg Press</td>
+            <td>4 &times; 5</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>Rest / Active Recovery</td>
+            <td>Walking, Stretching, Foam Rolling</td>
+            <td>&mdash;</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>Upper &mdash; Hypertrophy</td>
+            <td>Incline DB Press, Cable Row, Lateral Raises, Curls, Tricep Pushdowns</td>
+            <td>3 &times; 10&ndash;12</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>Lower &mdash; Hypertrophy</td>
+            <td>Deadlift, Bulgarian Split Squat, Leg Curl, Calf Raises</td>
+            <td>3 &times; 10&ndash;12</td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td>Rest</td>
+            <td>Full Rest &mdash; prioritize sleep &amp; nutrition</td>
+            <td>&mdash;</td>
+          </tr>
+          <tr>
+            <td>Sunday</td>
+            <td>Rest</td>
+            <td>Full Rest &mdash; prioritize sleep &amp; nutrition</td>
+            <td>&mdash;</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ==================== NUTRITION SECTION ==================== -->
+    <section id="nutrition">
+      <h2>Nutrition Basics</h2>
+      <h3>Protein</h3>
+      <p>
+        Protein is the building block of muscle. Aim for <strong>0.7&ndash;1 gram of protein
+        per pound of bodyweight</strong> per day. Good sources include chicken, eggs, beef,
+        fish, Greek yogurt, cottage cheese, and protein shakes.
+      </p>
+
+      <h3>Calories</h3>
+      <p>
+        To build muscle, you generally need a caloric surplus (eating slightly more than you
+        burn). To lose fat, you need a caloric deficit. Tools like a TDEE calculator can help
+        you estimate your daily calorie needs.
+      </p>
+
+      <h3>Hydration</h3>
+      <p>
+        Drink at least <strong>half your bodyweight in ounces</strong> of water per day,
+        more on training days. Dehydration significantly impairs strength and endurance.
+      </p>
+
+      <!-- Nutrition summary table -->
+      <table>
+        <caption>Quick Nutrition Reference</caption>
+        <thead>
+          <tr>
+            <th>Nutrient</th>
+            <th>Daily Target</th>
+            <th>Top Sources</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Protein</td>
+            <td>0.7&ndash;1g per lb bodyweight</td>
+            <td>Chicken, Eggs, Fish, Greek Yogurt</td>
+          </tr>
+          <tr>
+            <td>Carbohydrates</td>
+            <td>Varies by goal</td>
+            <td>Rice, Oats, Potatoes, Fruit</td>
+          </tr>
+          <tr>
+            <td>Fats</td>
+            <td>0.3&ndash;0.5g per lb bodyweight</td>
+            <td>Avocado, Nuts, Olive Oil, Eggs</td>
+          </tr>
+          <tr>
+            <td>Water</td>
+            <td>0.5 oz per lb bodyweight</td>
+            <td>Water, Milk, Fruits &amp; Vegetables</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ==================== RESOURCES / LINKS SECTION ==================== -->
+    <section id="resources">
+      <h2>Useful Resources</h2>
+      <h3>Websites &amp; Tools</h3>
+      <ul>
+        <li><a href="https://www.strongerbyscience.com" target="_blank">Stronger By Science</a> &mdash; evidence-based strength training articles</li>
+        <li><a href="https://www.myfitnesspal.com" target="_blank">MyFitnessPal</a> &mdash; free calorie and macro tracking app</li>
+        <li><a href="https://www.reddit.com/r/Fitness/wiki/index" target="_blank">r/Fitness Wiki</a> &mdash; beginner program recommendations and FAQs</li>
+        <li><a href="https://exrx.net" target="_blank">ExRx.net</a> &mdash; exercise directory with technique guides</li>
+      </ul>
+
+      <h4>Beginner Programs Worth Trying</h4>
+      <ul>
+        <li>Starting Strength (Mark Rippetoe)</li>
+        <li>StrongLifts 5&times;5</li>
+        <li>GZCLP</li>
+        <li>Reddit PPL (Push/Pull/Legs)</li>
+      </ul>
+
+      <h5>A Note on Consistency</h5>
+      <p>
+        No program works if you do not stick to it. The best program is the one you will
+        actually do. Show up, work hard, eat well, and sleep enough &mdash; the results
+        will come with time.
+      </p>
+
+      <h6>Disclaimer</h6>
+      <p>
+        <em>This page is for informational purposes only and does not constitute
+        professional medical or fitness advice. Consult a qualified professional before
+        beginning any new exercise program.</em>
+      </p>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer>
+      <p>&copy; 2026 Alexi Montesinos &mdash; COMP 4610 GUI I &mdash; UMass Lowell</p>
+      <!-- W3C CSS Validation Badge -->
+      <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
+      </a>
+    </footer>
+
+  </body>
+</html>

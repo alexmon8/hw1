@@ -1,0 +1,238 @@
+/*
+  File: css/style.css
+  GUI Assignment 1: Creating Your First Web Page
+  Alexi Montesinos, UMass Lowell Computer Science
+  Copyright (c) 2026 by Alexi Montesinos. All rights reserved. May be freely copied or
+  excerpted for educational purposes with credit to the author.
+  Created: May 21, 2026
+  Description: Stylesheet for index.html - styles a gym/lifting guide page
+  with a dark, bold aesthetic inspired by strength training culture.
+*/
+
+/* ==================== GLOBAL RESET & BASE STYLES ==================== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 17px;
+  line-height: 1.7;
+  background-color: #1a1a1a;
+  color: #e8e8e8;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* ==================== HEADER ==================== */
+header {
+  background-color: #b22222;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.6em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+header .subtitle {
+  font-size: 1.1em;
+  font-style: italic;
+  color: #f5c6c6;
+}
+
+/* ==================== NAVIGATION ==================== */
+nav {
+  background-color: #2c2c2c;
+  padding: 20px 25px;
+  border-left: 5px solid #b22222;
+  border-radius: 4px;
+  margin-bottom: 35px;
+}
+
+nav h2 {
+  font-size: 1.1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #b22222;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+nav ul li a {
+  color: #e8e8e8;
+  text-decoration: none;
+  font-size: 0.95em;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid #b22222;
+  color: #ffffff;
+}
+
+/* ==================== SECTION HEADINGS ==================== */
+section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 1.8em;
+  color: #b22222;
+  border-bottom: 2px solid #b22222;
+  padding-bottom: 6px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 1.25em;
+  color: #e8c060;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+h4 {
+  font-size: 1.1em;
+  color: #cccccc;
+  margin-top: 18px;
+  margin-bottom: 8px;
+}
+
+h5 {
+  font-size: 1em;
+  color: #aaaaaa;
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+
+h6 {
+  font-size: 0.9em;
+  color: #888888;
+  margin-top: 14px;
+  margin-bottom: 6px;
+  font-style: italic;
+}
+
+/* ==================== PARAGRAPHS ==================== */
+p {
+  margin-bottom: 14px;
+  color: #d4d4d4;
+}
+
+/* ==================== IMAGES ==================== */
+figure {
+  margin: 20px 0;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  border: 3px solid #b22222;
+  border-radius: 4px;
+}
+
+figcaption {
+  font-size: 0.85em;
+  color: #999999;
+  margin-top: 8px;
+  font-style: italic;
+}
+
+/* ==================== TABLES ==================== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 0.95em;
+}
+
+caption {
+  font-size: 1em;
+  font-weight: bold;
+  color: #e8c060;
+  text-align: left;
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+}
+
+thead tr {
+  background-color: #b22222;
+  color: #ffffff;
+}
+
+th {
+  padding: 10px 14px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 0.85em;
+}
+
+td {
+  padding: 10px 14px;
+  border-bottom: 1px solid #3a3a3a;
+  color: #d4d4d4;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #252525;
+}
+
+tbody tr:hover {
+  background-color: #2f2f2f;
+}
+
+/* ==================== LISTS ==================== */
+ul {
+  padding-left: 22px;
+  margin-bottom: 14px;
+}
+
+ul li {
+  margin-bottom: 6px;
+  color: #d4d4d4;
+}
+
+/* ==================== LINKS ==================== */
+a {
+  color: #e8c060;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* ==================== FOOTER ==================== */
+footer {
+  text-align: center;
+  padding: 25px 10px;
+  border-top: 2px solid #333333;
+  margin-top: 40px;
+  color: #777777;
+  font-size: 0.88em;
+}
+
+footer img {
+  display: block;
+  margin: 12px auto 0;
+}
